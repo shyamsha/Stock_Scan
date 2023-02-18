@@ -24,7 +24,6 @@ function Details() {
       case "variable":
         return (
           <Variable
-            stock={stock}
             data={data}
             stockLength={stock.criteria.length - 1}
             index={index}

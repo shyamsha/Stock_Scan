@@ -50,7 +50,6 @@ export interface Stock {
 
 export interface Props {
   text?: string | undefined;
-  stock?: Stock;
   data?: Criterion;
   stockLength: number;
   index: number;
