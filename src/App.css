@@ -37,7 +37,7 @@
 }
 
 .card:where(.css-dev-only-do-not-override-diro6f).ant-card .ant-card-body {
-  padding: 0;
+  padding: 0 !important;
   border-radius: 0 0 8px 8px;
 }
 .ant-card-body {
