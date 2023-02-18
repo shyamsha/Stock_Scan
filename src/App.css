@@ -2,37 +2,98 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #E5E7EB;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container:hover {
+  background-color: lightgray;
+}
+.card{
+  min-width: 486px;
+  height:auto;
+  background-color: rgb(253, 250, 250);
+}
+
+.card-details {
+  min-width:410px;
+  height:auto;
+  background-color: rgb(253, 250, 250);
+}
+
+.card:where(.css-dev-only-do-not-override-diro6f).ant-card .ant-card-body {
+  padding: 0;
+  border-radius: 0 0 8px 8px;
+}
+.ant-card-body {
+  padding: 0;
+}
+
+.title{
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	letter-spacing: normal;
+	line-height: 24px;
+  color:#4F46E5
+}
+
+.tag{
+  border: 0px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  height: 20px;
+  padding: 0 8px 0 8px;
+}
+
+.divider {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #111827;
+}
+
+.back {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.m-l {
+  margin-left: -321px
+}
+
+.text {
+font-size: 16px;
+line-height: 24px;
+text-align: left;
+font-weight: 500;
+word-spacing: 0px;
+color:#111827;
+margin: 16px 0;
+}
+
+.selected {
+  color: #4F46E5;
 }
