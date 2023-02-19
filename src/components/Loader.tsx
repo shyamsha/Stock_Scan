@@ -1,9 +1,9 @@
 import React from "react";
 
 const Loader = () => (
-  <h2 className="App-header" style={{ color: "black" }}>
-    Loading...{" "}
-  </h2>
+  <div className="App-header" style={{ color: "black" }}>
+    Loading...
+  </div>
 );
 
 export default Loader;

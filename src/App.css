@@ -24,37 +24,44 @@
 .container:hover {
   background-color: lightgray;
 }
-.card{
+
+.card {
   min-width: 486px;
-  height:auto;
+  height: auto;
   background-color: rgb(253, 250, 250);
+  padding: 0px
 }
 
 .card-details {
-  min-width:410px;
-  height:auto;
+  min-width: 475px;
+  height: auto;
   background-color: rgb(253, 250, 250);
 }
 
 .card:where(.css-dev-only-do-not-override-diro6f).ant-card .ant-card-body {
-  padding: 0 !important;
+  padding: 0px !important;
+  border-radius: 0 0 8px 8px;
+}
+
+.card:where(.css-diro6f).ant-card .ant-card-body {
+  padding: 0;
   border-radius: 0 0 8px 8px;
 }
 .ant-card-body {
   padding: 0;
 }
 
-.title{
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 600;
-	letter-spacing: normal;
-	line-height: 24px;
-  color:#4F46E5
+.title {
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: #4F46E5
 }
 
-.tag{
+.tag {
   border: 0px;
   border-radius: 25px;
   font-size: 12px;
@@ -81,19 +88,15 @@
 }
 
 .m-l {
-  margin-left: -321px
+  margin-left: -390px
 }
 
 .text {
-font-size: 16px;
-line-height: 24px;
-text-align: left;
-font-weight: 500;
-word-spacing: 0px;
-color:#111827;
-margin: 16px 0;
-}
-
-.selected {
-  color: #4F46E5;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  font-weight: 500;
+  word-spacing: 0px;
+  color: #111827;
+  margin: 16px 0;
 }
